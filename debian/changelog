@@ -1,0 +1,5 @@
+delay (1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #860572)
+
+ -- YuLun Shih <shih@yulun.me>  Fri, 04 Aug 2017 11:55:52 -0400

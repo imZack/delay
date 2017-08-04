@@ -1,0 +1,16 @@
+Source: delay
+Section: misc
+Priority: optional
+Maintainer: YuLun Shih <shih@yulun.me>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/rom1v/delay
+#Vcs-Git: https://anonscm.debian.org/collab-maint/delay.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/delay.git
+
+Package: delay
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Delayed pipe shell command
+ This is a shell command introducing a constant delay between its standard
+ input and its standard output.
